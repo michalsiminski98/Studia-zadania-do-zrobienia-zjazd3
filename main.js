@@ -5,8 +5,11 @@
 // Dla wartości `new Date()` zwracana wartość to `"object Date"`
 // Dla wartości `fetch('https://api.github.com/users/juszczak')` zwracana wartość to `"object Promise"`
 
-// let nazwa = 12;
-// console.log(nazwa.constructor, nazwa.construcor.name);
+// let x = new Date();
+// const dataType = (x) => {
+//     console.log(typeof(x), typeof(x) === 'object' ? x.constructor.name : '');
+// }
+// dataType(x);
 
 // Zadanie 2
 // Napisz funkcję która odwróci kolejność cyfr dla przekazanej w argumencie liczby.
@@ -49,7 +52,7 @@
 // > *[Permutacja](https://pl.wikipedia.org/wiki/Permutacja)
 
 // let x = 'dog';
-// let permutation = (word) => {
+// let permutation2 = (word) => {
 //     let array = word.split('');
 //     let first;
 //     for (let i = 0; i < array.length; i++){
@@ -58,9 +61,11 @@
 //         array = array.concat(first);
 //     }
 // }
-// permutation(x);
+// permutation2(x);
+// nie umiem, nie potrafie, nie umiem
 
-
+// internet
+// let dog = 'dog'
 // let permArr = [], usedChars = [];
 // function permutation(input) {
 //   let i,
@@ -77,7 +82,6 @@
 //   }
 //   return permArr
 // };
-// let dog = 'dog'
 // permutation(dog)
 
 // Zadanie 5
